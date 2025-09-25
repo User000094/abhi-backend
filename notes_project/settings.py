@@ -80,7 +80,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 # Add your production host
-ALLOWED_HOSTS = ['your-backend-domain.onrender.com', 'localhost']
+ALLOWED_HOSTS = ["abhi-backend-l2k4.onrender.com", "localhost", "127.0.0.1"]
 
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:5173", # or your frontend URL
