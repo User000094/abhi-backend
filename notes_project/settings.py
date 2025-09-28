@@ -76,16 +76,13 @@ ROOT_URLCONF = 'notes_project.urls'
 
 # Allow your deployed frontend domain
 CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
     "https://your-frontend-domain.vercel.app",  # React frontend URL
 ]
 
 # Add your production host
 ALLOWED_HOSTS = ["abhi-backend-l2k4.onrender.com", "localhost", "127.0.0.1"]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:5173", # or your frontend URL
-#     "http://localhost:3000", # or http://localhost:3000 if using CRA
-# ]
 
 
 REST_FRAMEWORK = {
