@@ -77,7 +77,7 @@ ROOT_URLCONF = 'notes_project.urls'
 # Allow your deployed frontend domain
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://your-frontend-domain.vercel.app",  # React frontend URL
+    "https://abhi-frontend.vercel.app/.vercel.app",  # React frontend URL
 ]
 
 # Add your production host
